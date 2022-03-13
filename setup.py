@@ -16,6 +16,7 @@ setup(
     url='https://github.com/zhangxue335/DeepTAP',
     author='Zhang Xue',
     author_email='22119130@zju.edu.cn',
+    license=open('LICENSE').read(),
     entry_points={'console_scripts':['deeptap=deeptap.deeptap:main']}
 )
 
