@@ -1,0 +1,6 @@
+datatime
+tqdm==1.6.3
+numpy==1.19.3
+pandas==1.3.2
+torch==1.9.1
+pytorch-lightning==1.4.8

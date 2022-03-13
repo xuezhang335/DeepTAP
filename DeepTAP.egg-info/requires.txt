@@ -1,0 +1,6 @@
+numpy
+datetime
+six
+pandas
+torch==1.9.1
+pytorch_lightning==1.4.8
