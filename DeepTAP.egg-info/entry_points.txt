@@ -1,2 +1,0 @@
-[console_scripts]
-deeptap = deeptap.deeptap:main

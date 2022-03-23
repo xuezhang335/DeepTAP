@@ -19,9 +19,9 @@ pytorch
 
 ### Steps
 
-Download the latest version of DeepHLApan from https://github.com/jiujiezz/deeptap
+Download the latest version of DeepTAP from https://github.com/zhangxue355/DeepTAP
 
-    git clone https://github.com/jiujiezz/deeptap.git
+    git clone https://github.com/zhangxue355/DeepTAP.git
 
 Unzip the source code and go into the directory by using the following command:
 
