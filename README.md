@@ -37,15 +37,15 @@ Invoke the setup script:
 
 Single peptide:
 
-    deeptap -P [LNIMNKLNI] -O [output directory]
+    deeptap -t cla -p [LNIMNKLNI] -o [output directory]
 
 List of peptides in a file:
 
-    deeptap -F [file] -O [output directory]
+    deeptap -t cla -f [file] -o [output directory]
 
 # Input files
 
-DeepTAP takes **csv** files as input with head of **"peptide"** (requisite). For example (demo/1.csv)
+DeepTAP takes **csv** files as input with head of **"peptide"** (requisite). For example (demo/demo1.csv)
 
 # Update log
 
