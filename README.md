@@ -44,7 +44,10 @@ Single peptide:
 
 List of peptides in a file:
 
-    deeptap -t cla -f [file] -o [output directory]
+    classification model prediction:
+    	deeptap -t cla -f [file] -o [output directory]
+    regression model prediction:
+        deeptap -t reg -f [file] -o [output directory]
 
 # Input files
 
