@@ -26,7 +26,7 @@ Download the latest version of DeepTAP from https://github.com/zhangxue355/DeepT
 Unzip the source code and go into the directory by using the following command:
 
     tar xvzf deeptap-*.tar.gz
-
+    
     cd deeptap
 
 Invoke the setup script:
@@ -37,7 +37,10 @@ Invoke the setup script:
 
 Single peptide:
 
-    deeptap -t cla -p [LNIMNKLNI] -o [output directory]
+    classification model prediction:
+    	deeptap -t cla -p [LNIMNKLNI] -o [output directory]
+    regression model prediction:
+        deeptap -t reg -p [LNIMNKLNI] -o [output directory]
 
 List of peptides in a file:
 
