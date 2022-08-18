@@ -38,16 +38,16 @@ Invoke the setup script:
 Single peptide:
 
     classification model prediction:
-    	deeptap -t cla -p LNIMNKLNI -o output directory
+    	deeptap -t cla -p <LNIMNKLNI> -o <output directory>
     regression model prediction:
-        deeptap -t reg -p LNIMNKLNI -o output directory
+        deeptap -t reg -p <LNIMNKLNI> -o <output directory>
 
 List of peptides in a file:
 
     classification model prediction:
-    	deeptap -t cla -f file -o output directory
+    	deeptap -t cla -f <input file> -o <output directory>
     regression model prediction:
-        deeptap -t reg -f file -o output directory
+        deeptap -t reg -f <input file> -o <output directory>
 
 # Input files
 
