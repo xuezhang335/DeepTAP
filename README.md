@@ -1,6 +1,6 @@
 # DeepTAP
 
-TAPPred is a deep learning approach used for predicting high-confidence TAP-binding peptide.
+DeepTAP is a deep learning approach used for predicting high-confidence TAP-binding peptide.
 
 Contact: zhanzhou@zju.edu.cn
 
@@ -21,7 +21,7 @@ pytorch
 
 Download the latest version of DeepTAP from https://github.com/xuezhang335/DeepTAP
 
-    [git clone https://github.com/zhangxue355/DeepTAP.git](https://github.com/xuezhang335/DeepTAP.git)
+    git clone https://github.com/zhangxue355/DeepTAP.git
 
 Go into the directory by using the following command:
 
