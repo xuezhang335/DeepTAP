@@ -1,4 +1,5 @@
 dist/
 build/
 deeptap.egg-info/
+deeptap/__pycache__/
 requirement-pipfreeze.txt

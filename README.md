@@ -19,19 +19,17 @@ pytorch
 
 ### Steps
 
-Download the latest version of DeepTAP from https://github.com/zhangxue355/DeepTAP
+Download the latest version of DeepTAP from https://github.com/xuezhang335/DeepTAP
 
-    git clone https://github.com/zhangxue355/DeepTAP.git
+    [git clone https://github.com/zhangxue355/DeepTAP.git](https://github.com/xuezhang335/DeepTAP.git)
 
-Unzip the source code and go into the directory by using the following command:
+Go into the directory by using the following command:
 
-    tar xvzf deeptap-*.tar.gz
-    
-    cd DeepTAP-main
+    cd DeepTAP
 
 Invoke the setup script:
 
-    sudo python setup.py install
+    python setup.py install
 
 # General usage
 
