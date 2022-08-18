@@ -1,8 +1,10 @@
-from process import *
-from parse_args import commandLineParser
+from .process import *
+from .parse_args import commandLineParser
 
 
-def deeptap_main(args):
+def deeptap_main():
+    args = commandLineParser()
+    print(args)
 
     CurDir = os.path.dirname(os.path.realpath(__file__))
     i = datetime.datetime.now()
@@ -63,5 +65,5 @@ def deeptap_main(args):
 
 
 if __name__ == "__main__":
-    args = commandLineParser()
-    deeptap_main(args)
+    
+    deeptap_main()
