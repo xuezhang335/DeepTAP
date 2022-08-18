@@ -1,1 +1,4 @@
+dist/
+build/
+deeptap.egg-info/
 requirement-pipfreeze.txt
