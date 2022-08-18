@@ -11,7 +11,7 @@ PyYAML>=5.4
 zope.interface
 werkzeug>=1.0.1
 tensorboard-data-server<0.7.0,>=0.6.0
-aiohttp
+aiohttp==4.0.0a1
 MarkupSafe>=2.1.1
 yarl<2.0,>=1.0
 multidict<5.0,>=4.5
