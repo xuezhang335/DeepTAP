@@ -4,8 +4,6 @@ from .parse_args import commandLineParser
 
 def deeptap_main():
     args = commandLineParser()
-    print(args)
-
     CurDir = os.path.dirname(os.path.realpath(__file__))
     i = datetime.datetime.now()
     print(f"{i}: Prediction starting ... \n")
