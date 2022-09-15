@@ -28,7 +28,7 @@ def path_files(directory):
     paths = []
     for (path, directories, filenames) in os.walk(directory):
         for filename in filenames:
-            if filename[0] is not '.':  # filter hidden files
+            if filename[0] != '.':  # filter hidden files
                 paths.append(os.path.join(
                     re.sub(NAME+'/', '', path), filename))
     return paths
