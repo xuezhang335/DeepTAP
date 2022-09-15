@@ -21,7 +21,7 @@ pytorch
 
 Download the latest version of DeepTAP from https://github.com/xuezhang335/DeepTAP
 
-    git clone https://github.com/zhangxue355/DeepTAP.git
+    git clone https://github.com/xuezhang355/DeepTAP.git
 
 Go into the directory by using the following command:
 
