@@ -1,5 +1,9 @@
 dist/
 build/
 deeptap.egg-info/
-deeptap/__pycache__/
+__pycache__/
 requirement-pipfreeze.txt
+TESLA/
+pseudo_create/
+model.bak/
+data.bak/
