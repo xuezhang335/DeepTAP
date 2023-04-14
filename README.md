@@ -27,9 +27,6 @@ Go into the directory by using the following command:
 
     cd DeepTAP
 
-Invoke the setup script:
-
-    python setup.py install
 
 # General usage
 
@@ -37,24 +34,24 @@ Invoke the setup script:
 Single peptide:
 
     classification model prediction:
-        deeptap -t cla -p <LNIMNKLNI> -o <output directory>
+        python deeptap.py -t cla -p LNIMNKLNI -o <output directory>
     regression model prediction:
-        deeptap -t reg -p <LNIMNKLNI> -o <output directory>
+        python deeptap.py -t reg -p LNIMNKLNI -o <output directory>
 
 List of peptides in a file:
 
     classification model prediction:
-        deeptap -t cla -f <input file> -o <output directory>
+        python deeptap.py -t cla -f <input file> -o <output directory>
     regression model prediction:
-        deeptap -t reg -f <input file> -o <output directory>
+        python deeptap.py -t reg -f <input file> -o <output directory>
 
 # Input files
 
-DeepTAP takes **csv** files as input with head of **"peptide"** (requisite). For example (demo/demo1.csv)
+DeepTAP takes **csv** or **xlsx** files as input with head of **"peptide"** (requisite). See **demo/demo1.csv** for an example.
 
 # Update log
 
-## 2022.03
-
 V1.0  
 Test the suitabilty of different RNN variants (GRU,LSTM,BGRU,BLSTM,att-BGRU and att-BLSTM) and CNN on the binding prediction and select the best one (BGRU) for model construction.
+
+
