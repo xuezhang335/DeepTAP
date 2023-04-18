@@ -1,6 +1,6 @@
 # DeepTAP
 
-DeepTAP is a deep learning approach used for predicting high-confidence TAP-binding peptide.
+DeepTAP is a deep learning approach used for predicting high-confidence TAP-binding peptide. The DeepTAP web server is freely accessible to the public at https://pgx.zju.edu.cn/deeptap/. 
 
 Contact: zhanzhou@zju.edu.cn
 
@@ -19,9 +19,10 @@ pytorch
 
 ### Steps
 
-Download the latest version of DeepTAP from https://github.com/xuezhang335/DeepTAP
+Download the latest version of DeepTAP from https://github.com/zjupgx/DeepTAP or https://github.com/xuezhang335/DeepTAP
 
-    git clone https://github.com/xuezhang355/DeepTAP.git
+    git clone https://github.com/zjupgx/DeepTAP.git
+    (or git clone https://github.com/xuezhang355/DeepTAP.git)
 
 Go into the directory by using the following command:
 
