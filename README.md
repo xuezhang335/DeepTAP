@@ -14,12 +14,12 @@ Windows/Linux
 Create a virtual environment using conda or miniconda. This is the version of the package that must be installed.
  see the **env.yaml** file for detailed installation packages and versions.
 
-python==3.10.0
-numpy==1.24.2
-pandas==1.5.3
-pytorch==1.1.3
-torchmetrics=0.11.1
-pytorch-lightning==1.9.2
+|python==3.10.0|
+|numpy==1.24.2|
+|pandas==1.5.3|
+|pytorch==1.1.3|
+|torchmetrics=0.11.1|
+|pytorch-lightning==1.9.2|
 
 ### Steps
 
@@ -87,14 +87,15 @@ See **demo/demo1_DeepTAP_cla_predresult_rank.csv** for an example.
 |ALAAAAAAQ|0.2531|0|
 |PTAWRSEMN|0.1114|0|
 
-The following are the field descriptions for the result file.
-For classification tasks:
-pred_score: Combined prediction score, between 0-1, the threshold is 0.5
-pred_label: Whether it is a binding peptide, 0 means no binding, 1 means binding
+The following are the field descriptions for the result file.<br>
+For classification tasks:<br>
+pred_score: Combined prediction score, between 0-1, the threshold is 0.5<br>
+pred_label: Whether it is a binding peptide, 0 means no binding, 1 means binding<br>
 
-For regression tasks:
-pred_affinity: Binding prediction affinity, unit nM, threshold is 10000nM
-pred_label: Whether it is a binding peptide, 0 means no binding, 1 means binding
+
+For regression tasks:<br>
+pred_affinity: Binding prediction affinity, unit nM, threshold is 10000nM<br>
+pred_label: Whether it is a binding peptide, 0 means no binding, 1 means binding<br>
 
 # Update log
 
