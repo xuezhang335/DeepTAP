@@ -54,9 +54,9 @@ DeepTAP takes **csv** or **xlsx** files as input with head of **"peptide"** (req
 |ALAAAAAAQ|
 
 ### Parameters
--t, --taskType, choices=['cla', 'reg'], Select task type: classification, regression
--p, --peptide, Single peptide for prediction
--f, --file, Input file with peptides for prediction: if given, overwrite -p option
+-t, --taskType, choices=['cla', 'reg'], Select task type: classification, regression<br>
+-p, --peptide, Single peptide for prediction<br>
+-f, --file, Input file with peptides for prediction: if given, overwrite -p option<br>
 -o, --outputDir, Directory to store file with prediction result: if not given, the current directory will be applied
 
 ### Running
