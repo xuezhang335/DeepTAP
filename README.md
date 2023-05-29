@@ -41,6 +41,17 @@ Go into the directory by using the following command:
 
 DeepTAP takes **csv** or **xlsx** files as input with head of **"peptide"** (requisite). See **demo/demo1.csv** for an example.
 
+|peptide|
+|----|
+|KADDDKPGA|
+|PTAWRSEMN|
+|AEASAAAAY|
+|KKTSLEKRM|
+|AAASAAYAY|
+|RRFGDKLNF|
+|ALAKAGAAV|
+|AAASAAAAK|
+|ALAAAAAAQ|
 
 ### Parameters
 -t, --taskType, choices=['cla', 'reg'], Select task type: classification, regression<br>
@@ -65,18 +76,18 @@ List of peptides in a file:
 
 ### Output
 The model prediction results output two files: the original ranking file and the ranking file according to the prediction score from high to low.
-See **demo/demo1_DeepTAP_cla_predresult_rank.csv** for an example.
+See **demo/demo1_DeepTAP_cla_predresult.csv** for an example.
 |peptide|pred_score|pred_label|
 |----|----|----|
+|KADDDKPGA|0.2964|0|
+|PTAWRSEMN|0.1114|0|
+|AEASAAAAY|0.9795|1|
+|KKTSLEKRM|0.5658|1|
 |AAASAAYAY|0.9955|1|
 |RRFGDKLNF|0.9884|1|
-|AEASAAAAY|0.9795|1|
-|AAASAAAAK|0.6483|1|
-|KKTSLEKRM|0.5658|1|
 |ALAKAGAAV|0.3405|0|
-|KADDDKPGA|0.2964|0|
+|AAASAAAAK|0.6483|1|
 |ALAAAAAAQ|0.2531|0|
-|PTAWRSEMN|0.1114|0|
 
 The following are the field descriptions for the result file.<br>
 For classification tasks:<br>
