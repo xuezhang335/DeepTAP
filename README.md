@@ -41,17 +41,6 @@ Go into the directory by using the following command:
 
 DeepTAP takes **csv** or **xlsx** files as input with head of **"peptide"** (requisite). See **demo/demo1.csv** for an example.
 
-|peptide|
-|----|
-|KADDDKPGA|
-|PTAWRSEMN|
-|AEASAAAAY|
-|KKTSLEKRM|
-|AAASAAYAY|
-|RRFGDKLNF|
-|ALAKAGAAV|
-|AAASAAAAK|
-|ALAAAAAAQ|
 
 ### Parameters
 -t, --taskType, choices=['cla', 'reg'], Select task type: classification, regression<br>
