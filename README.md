@@ -14,6 +14,8 @@ Windows/Linux
 Create a virtual environment using conda or miniconda. This is the version of the package that must be installed.
  see the **env.yaml** file for detailed installation packages and versions.
 
+|Packages|
+|----|
 |python==3.10.0|
 |numpy==1.24.2|
 |pandas==1.5.3|
